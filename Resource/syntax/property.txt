@@ -1,0 +1,1 @@
+(width)|(height)|(font-size)|(font-weight)|(background-color)|(background)|(font)|(color)|(padding-((left)|(right)|(top)|(bottom)))|(padding)|(margin)|(border-image)|(border-radius)|(border-color)|(border)
