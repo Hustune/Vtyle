@@ -1,0 +1,1 @@
+(white)|(red)|(gray)|(black)|(px)|((#)*[0-9]*)

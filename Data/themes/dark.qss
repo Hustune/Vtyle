@@ -1,0 +1,250 @@
+#centralWidget{
+    background:rgb(33,37,43);
+}
+
+#TextEdit {
+    background: rgb(40,44,52);
+    color: rgb(200,200,200);
+    font-size: 50px;
+}
+
+#completer{
+    color:white;
+    background-color:rgb(33,37,43);
+    font-size:30px;
+}
+
+
+#mainMenuBar{
+    background:rgb(40,44,52);
+    color:#FFF;
+    font-size:23px;
+}
+#mainMenuBar::item{
+    background-color:rgb(40,44,52);
+}
+#mainMenuBar::item:selected{
+    background-color:rgb(56,59,65);
+}
+
+#windowMenu{
+    color:white;
+    border:none;
+}
+#windowMenu::item{
+    background-color:rgb(40,44,52);
+}
+#windowMenu::item:selected{
+    background-color:rgb(56,59,65);
+}
+
+#windowToolBar{
+    background-color: rgb(23,27,33);
+}
+
+
+#tabWidget{
+    border:10px;
+    background-color:rgb(44,49,60);
+}
+#tabWidget::pane{
+    background-color:rgb(40,44,52);
+	border:none;
+}
+#tabBar::tab:hover{
+    color:#FFF;
+	background:black;
+}
+#tabBar::tab{
+    background-color:rgb(40,44,52);
+    color:white;
+        font-size:22px;
+}
+#tabBar::tab:selected{
+    background:rgb(40,44,52);
+    }
+#tabBar::close-button{
+    border-image: url(./Resource/TabCloseButton.png);
+}
+#tabBar::close-button:hover{
+    background: rgb(63,68,75);
+}
+
+
+#dockWidget{
+    background: white;
+}
+
+#introduceLabel{
+    color:white;
+    font-size:30px;
+}
+
+#replaceBox{
+    background-color:rgb(33,37,43);
+    color:white;
+    font-size:35px;
+}
+#replaceBox QAbstractItemView::item{
+	height:36px;
+	color:#FFF;
+	padding-left:9px;
+	background-color:rgb(33,37,43);
+}
+#replaceBox QAbstractItemView::item:hover{
+  background-color:rgb(61,66,75);
+  color:#FFF;
+}
+#replaceBox QAbstractItemView::item:selected{
+  background-color:black;
+  color:#FFF;
+}
+#replaceBox QScrollBar::vertical {
+background:transparent;
+width:16px;
+border:0px;
+}
+
+#replaceBox QScrollBar::handle:vertical {
+background:rgb(55,60,71);
+width:16px;
+}
+
+#replaceBox QScrollBar::add-line:vertical {
+background:none;
+border:none;
+}
+
+#replaceBox QScrollBar::sub-line:vertical {
+background:none;
+border:none;
+}
+
+#replaceBox QScrollBar::add-page:vertical {
+background:transparent;
+border:none;
+}
+
+#replaceBox QScrollBar::sub-page:vertical {
+background:transparent;
+border:none;
+}
+
+#ScrollBar:horizontal{
+
+margin:0px 16px 0px 16px;
+
+background:transparent;
+
+border:none;
+
+height:14px;
+
+}
+
+
+
+#ScrollBar::handle:horizontal{
+
+background-color:rgb(55,60,71);
+
+border-radius:20px;
+
+height:24px;
+
+}
+
+
+#ScrollBar::add-line:horizontal{
+background-color:none;
+border:none;
+}
+
+#ScrollBar::sub-line:horizontal{
+background-color:none;
+border:none;
+}
+#ScrollBar::add-page:horizontal {
+background:transparent;
+border:none;
+}
+
+#ScrollBar::sub-page:horizontal {
+background:transparent;
+border:none;
+}
+
+#ScrollBar::vertical {
+background:transparent;
+width:16px;
+border:0px;
+}
+
+#ScrollBar::handle:vertical {
+background:rgb(55,60,71);
+width:16px;
+}
+
+#ScrollBar::add-line:vertical {
+background:none;
+border:none;
+}
+
+#ScrollBar::sub-line:vertical {
+background:none;
+border:none;
+}
+
+#ScrollBar::add-page:vertical {
+background:transparent;
+border:none;
+}
+
+#ScrollBar::sub-page:vertical {
+background:transparent;
+border:none;
+}
+
+#ScrollBar:horizontal{
+
+margin:0px 16px 0px 16px;
+
+background:transparent;
+
+border:none;
+
+height:24px;
+
+}
+
+
+
+#ScrollBar::handle:horizontal{
+
+background-color:rgb(55,60,71);
+
+border-radius:20px;
+
+height:24px;
+
+}
+
+
+#ScrollBar::add-line:horizontal{
+background-color:none;
+border:none;
+}
+
+#ScrollBar::sub-line:horizontal{
+background-color:none;
+border:none;
+}
+#ScrollBar::add-page:horizontal {
+background:transparent;
+border:none;
+}
+
+#ScrollBar::sub-page:horizontal {
+background:transparent;
+border:none;
+}

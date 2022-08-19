@@ -1,0 +1,1 @@
+(font-size)|(font-weight)|(background-color)|(background)|(font)|(color)|(padding)|(border-color)|(border)
